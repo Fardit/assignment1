@@ -1,0 +1,40 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.upper-part{
+    display: flex;
+    width: 100%;
+    
+}
+h1{
+   font-size: 60px; 
+}
+.one-header{
+    
+    border-left: 5px solid orangered;
+    padding-left: 2%;
+}
+.two-header{
+    text-align: center;
+}
+h3{
+    font-weight: lighter;
+}
+
+.banner{
+
+    width: 50%;
+}
+.heading{
+    color: orangered;
+}
+a{
+    background-image: linear-gradient(red, orange);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.mid-heading{
+    text-align: center;
+}
