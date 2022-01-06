@@ -1,14 +1,18 @@
 body{
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0; */
 }
 .upper-part{
     display: flex;
-    width: 100%;
-    
+    max-width: 93%;
+    justify-content: center;
 }
 h1{
    font-size: 60px; 
+}
+h2{
+    font-size: 40px; 
 }
 .one-header{
     
@@ -34,7 +38,66 @@ a{
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 10px;
+    color: white;
+    text-align: center;
 }
 .mid-heading{
     text-align: center;
 }
+
+#mid-one{  
+    flex: 30%;
+    text-align: left; 
+}
+#mid-two{
+    flex: 30%;
+    text-align: left;    
+}
+#mid-three{
+    flex: 30%;
+    text-align: left;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.coding{
+    width: 600px;
+    height: 450px;
+    padding-right: 20%;
+}
+.bg{
+background-image: url(images/shapes/shape-6.png);
+background-repeat: no-repeat;
+width: 70%;
+height: 50%;
+padding-right: 10%;
+}
+.coding-div{
+    padding: 2%;
+}
+.last-header{
+   text-align: right; 
+}
+.right{
+    text-align: right;
+}
+.code{
+    width: 600px;
+    height : 400px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+footer{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: rgb(6, 1, 15);
+    color: white;
+}
+
+
+
+
